@@ -52,7 +52,7 @@ function App() {
           </div>
 
           {activeMenu ? (
-            <div className="w-72 sidebar fixed dark:bg-main-dark-bg z-50 bg-white">
+            <div className="w-72 setting fixed dark:bg-main-dark-bg z-50 bg-white">
               <Sidebar />
             </div>
           ) : (
@@ -67,11 +67,11 @@ function App() {
                 ? "dark:bg-main-dark-bg  bg-light-gray min-h-screen md:ml-72 w-full "
                 : "bg-light-gray dark:bg-main-dark-bg  w-full min-h-screen flex-2 "
             }>
-            <div className="fixed md:static bg-white lg:bg-transparent md:bg-transparent dark:bg-main-dark-bg navbar w-full drop-shadow-md">
+            <div className="fixed bg-white lg:bg-transparent md:bg-transparent dark:bg-main-dark-bg navbar w-full drop-shadow-md top-0 left-0">
               <Navbar />
             </div>
 
-            <div>
+            <div className="mt-20">
               {themeSettings && <ThemeSetting />}
               <Routes>
                 {/* dashboard  */}

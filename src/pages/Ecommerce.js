@@ -31,7 +31,7 @@ const Ecommerce = () => {
     },
   };
   return (
-    <div className="mt-24 lg:mt-12 md:mt-10">
+    <div className="mt-24 lg:mt-12 md:mt-10 -z-10">
       <div className="w-full flex justify-center items-center p-2 2xl:p-0">
         <div className="flex flex-wrap justify-center items-start xl:flex-nowrap gap-5">
           <div className="bg-white dark:bg-secondary-dark-bg flex items-center justify-between p-4 rounded-2xl drop-shadow-md">

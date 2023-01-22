@@ -62,7 +62,7 @@ const Navbar = () => {
   }, [screenSize]);
 
   return (
-    <div className="flex justify-between p-2 md:ml-6 md:mr-6 relative items-center profile">
+    <div className="flex justify-between p-2 md:ml-6 md:mr-6 relative items-center">
       <NavButton
         name="Menu"
         customFunc={handleActiveMenu}
@@ -111,7 +111,6 @@ const Navbar = () => {
             icon={<MdKeyboardArrowDown />}
           />
         </div>
-
         {isClicked.cart && <Cart />}
         {isClicked.chat && <Chat />}
         {isClicked.notification && <Notification />}

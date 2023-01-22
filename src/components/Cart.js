@@ -10,7 +10,7 @@ const Cart = () => {
   const { currentColor, handleClick, initialState } = useStateContext();
   return (
     <div className="bg-half-transparent w-screen fixed nav-item top-0 right-0">
-      <div className="w-400 bg-white dark:bg-[#42464D] h-screen float-right p-4">
+      <div className="w-400 bg-white dark:bg-[#42464D] h-screen float-right p-4 user-profile">
         <div className="flex justify-between items-center p-4 dark:text-gray-100">
           <p>Shopping Cart</p>
           <button
