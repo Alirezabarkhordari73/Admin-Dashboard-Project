@@ -6,7 +6,13 @@
   z-index: 1000;
 }
 .setting{
-  z-index: 10000;
+  z-index: 10000 !important;
+}
+.profile{
+  z-index: 20000 !important;
+}
+.user-profile{
+  z-index: 30000 !important;
 }
 @media  screen and (max-width:800px) {
   .sidebar{

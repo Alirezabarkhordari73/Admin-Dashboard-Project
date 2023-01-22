@@ -62,7 +62,7 @@ const Navbar = () => {
   }, [screenSize]);
 
   return (
-    <div className="flex justify-between p-2 md:ml-6 md:mr-6 relative items-center">
+    <div className="flex justify-between p-2 md:ml-6 md:mr-6 relative items-center profile">
       <NavButton
         name="Menu"
         customFunc={handleActiveMenu}

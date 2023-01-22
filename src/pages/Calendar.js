@@ -103,7 +103,7 @@ function Calendars() {
         events={allEvents}
         startAccessor="start"
         endAccessor="end"
-        style={{ height: 800, margin: "30px" }}
+        style={{ height: 800, margin: "30px", zIndex: 0 }}
       />
     </div>
   );

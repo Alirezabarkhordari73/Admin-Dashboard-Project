@@ -67,7 +67,7 @@ function App() {
                 ? "dark:bg-main-dark-bg  bg-light-gray min-h-screen md:ml-72 w-full "
                 : "bg-light-gray dark:bg-main-dark-bg  w-full min-h-screen flex-2 "
             }>
-            <div className="fixed z-20 md:static bg-white lg:bg-transparent md:bg-transparent dark:bg-main-dark-bg navbar w-full drop-shadow-md">
+            <div className="fixed md:static bg-white lg:bg-transparent md:bg-transparent dark:bg-main-dark-bg navbar w-full drop-shadow-md">
               <Navbar />
             </div>
 
