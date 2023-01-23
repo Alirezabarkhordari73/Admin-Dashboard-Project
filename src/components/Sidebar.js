@@ -38,7 +38,7 @@ const Sidebar = () => {
   console.log(activeLink);
 
   return (
-    <div className="ml-3 h-screen overflow-auto md:overflow-hidden">
+    <div className="ml-3 h-screen overflow-auto">
       {activeMenu && (
         <>
           <div className="flex justify-between items-center relative">

@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { FiSettings } from "react-icons/fi";
 
-import { Navbar, Footer, Sidebar, ThemeSetting } from "./components";
+import { Navbar, Sidebar, ThemeSetting } from "./components";
 import {
   Ecommerce,
   Orders,
