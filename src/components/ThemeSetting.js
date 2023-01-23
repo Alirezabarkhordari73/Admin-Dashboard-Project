@@ -64,7 +64,7 @@ const ThemeSetting = () => {
                 key={index}
                 title={item.name}
                 placement={"bottom"}
-                backgroundcolor={"#ea8685"}>
+                backgroundcolor={currentColor}>
                 <div
                   className="relative mt-2 cursor-pointer flex gap-5 items-center"
                   key={item.name}>
