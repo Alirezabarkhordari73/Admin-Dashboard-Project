@@ -18,6 +18,7 @@ export const ContextProvider = ({ children }) => {
   const [isClicked, setIsClicked] = useState(initialState);
 
   useEffect(() => {
+    localStorage.setItem("colorMode", "#f2b3ed");
     setCurrentColor(localStorage.getItem("colorMode"));
     setCurrentMode(localStorage.getItem("themeMode"));
   }, []);
